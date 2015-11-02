@@ -7,12 +7,12 @@ Run on server:
     
 
 Run on client :
-    ./hello -d <cache-dir> <mountpoint-dir>
+    ./hello -d \<cache-dir\> \<mountpoint-dir\>
     
     e.g. ./hello -d ~/cache1 /tmp/fuse
   
   
 The file-system will be available at /tmp/fuse . It can be unmounted using :
-    fusermount -u <mountpoint-dir>
+    fusermount -u \<mountpoint-dir\>
     
     e.g. fusermount -u /tmp/fuse
