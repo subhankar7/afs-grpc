@@ -1,7 +1,7 @@
 # afs-grpc
 
 Run on server:
-    ./greeter-server <afs-directory>
+    ./greeter-server \<afs-directory\>
       
     e.g. ./greeter_server /afs/cs.wisc.edu/u/s/u/subhankar/private/739/fuse-2.9.4/nex/afs
     
